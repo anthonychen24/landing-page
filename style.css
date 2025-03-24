@@ -98,3 +98,45 @@ button:hover {
         text-align: center;
     }
 } */
+
+.card-section {
+    color: #1f2937;
+    margin: 32px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+
+.card-image {
+    /* width: 150px; */
+    height: 150px;
+    border-radius: 8px;
+    border: 4px solid  #3882F6;
+    margin-bottom: 16px;
+}
+
+.card {
+    max-width: 150px;
+}
+
+.card-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* @media (max-width: 768px ) {
+    .card-section .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+} */
