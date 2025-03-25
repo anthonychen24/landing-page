@@ -68,6 +68,7 @@ button {
     padding: 8px 16px;
     width: 120px;
     color: #e5e7eb;
+    cursor: pointer;
 }
 
 button:hover {
@@ -168,4 +169,41 @@ h2 {
     font-weight: bold;
     display: flex;
     justify-content: end;
+}
+
+/* call to action */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action .container{
+    flex-basis: 1000px;
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 100px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.call-to-action button:hover {
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
+    border: 1px solid gray;
 }
