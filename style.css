@@ -140,3 +140,32 @@ h2 {
         text-align: center;
     }
 } */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section .container {
+    color: #1f2937;
+    flex-basis: 800px;
+    padding: 30px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+.quote-section span {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
